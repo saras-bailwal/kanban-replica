@@ -1,7 +1,7 @@
 export const priorityFlags: string[] = 
 [
-    "/src/assets/Nopriority.svg", 
-    "/src/assets/lowPriority.svg",
-    "/src/assets/mediumPriority.svg", 
-    "/src/assets/highPriority.svg", 
-    "/src/assets/UrgentPrioritygrey.svg"]
+    "./assets/Nopriority.svg", 
+    "./assets/lowPriority.svg",
+    "./assets/mediumPriority.svg", 
+    "./assets/highPriority.svg", 
+    "./assets/UrgentPrioritygrey.svg"]

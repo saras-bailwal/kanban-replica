@@ -37,7 +37,7 @@ function App() {
     <header>
       <div className="parent">
       <div className="display-menu" tabIndex={0}>
-        <img src="/src/assets/Display.svg" /> Display
+        <img src="./assets/Display.svg" /> Display
       </div>
       <ul className="dropdown open" ref={displayWin}>
         <li>
@@ -71,8 +71,8 @@ function App() {
                   <div className="kanban-column-header">
                     <span>{col.name}</span>
                     <span>
-                      <img src="/src/assets/add.svg" />
-                      <img src="/src/assets/Menu.svg" style={{ paddingLeft: "6px" }} />
+                      <img src="./assets/add.svg" />
+                      <img src="./assets/Menu.svg" style={{ paddingLeft: "6px" }} />
                     </span>
                   </div>
                   <div className="kanban-column-list">
